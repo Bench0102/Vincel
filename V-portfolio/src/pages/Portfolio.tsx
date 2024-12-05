@@ -29,12 +29,12 @@ const Portfolio: React.FC = () => {
   };
 
   return (
-    <div className='bg-[#FFD2CE]'>
-        <div className="sticky top-4 z-50  ">
+    <div className='bg-[#FFD2CE] flex min-h-screen flex-col'>
+        <div className="sticky top-0 z-50 mb-10">
         <Navbar />
         </div> 
     
-        <div className="relative flex min-h-screen flex-col items-center justify-center ">
+        <div className="relative flex flex-col items-center justify-center ">
        
       {/* Carousel */}
       <div className="carousel scrollbar-hide flex w-full snap-x snap-mandatory gap-4 overflow-x-scroll scroll-smooth">

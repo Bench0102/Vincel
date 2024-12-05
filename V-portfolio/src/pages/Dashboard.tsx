@@ -12,7 +12,7 @@ const Dashboard: React.FC = () => {
      
 
       {/* Main Content Section */}
-      <div className="flex flex-grow">
+      <div className="flex flex-row">
 
         {/* Left panel */}
         <div className="bg-[#ECACA8] w-1/2 min-h-screen rounded-r-[80px] flex flex-col justify-between">

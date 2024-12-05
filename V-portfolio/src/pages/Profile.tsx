@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 const Profile: React.FC = () => {
   return (
     <div className="bg-[#FFD2CE] min-h-screen flex flex-col">
-        <div className="sticky top-4 z-50 mb-6">
+        <div className="sticky top-0 z-50 mb-10">
             <Navbar />
         </div>  
 
