@@ -2,7 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
 
 html {
     scroll-behavior: smooth;
+  }
+
+  .oswald-home {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* You can use 200, 400, or 700, depending on the weight you want */
+    font-style: normal;
   }

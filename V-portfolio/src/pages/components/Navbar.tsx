@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
         <li className="relative group">
           <Link
             to="/"
-            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
+            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] shadow-2xl flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
           >
             Home
           </Link>
@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
         <li className="relative group">
           <Link
             to="/about"
-            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
+            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] shadow-2xl flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
           >
             About
           </Link>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
         <li className="relative group">
           <Link
             to="/portfolio"
-            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
+            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] shadow-2xl flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
           >
             Portfolio
           </Link>
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
         <li className="relative group">
           <Link
             to="/profile"
-            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
+            className="px-6 py-3 bg-[#E2CCB2] text-[#5A3D3A] rounded-[20px] shadow-2xl flex items-center justify-center text-lg font-semibold group-hover:bg-[#E8A49A] group-hover:shadow-lg transition-all duration-300"
           >
             Profile
           </Link>
